@@ -1,0 +1,50 @@
+#countdown{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: baseline;
+    font-size: 1.5em;
+}
+  
+.num{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+    height: 1.5em;
+}
+
+.colon{
+    height: 2.5em;
+}
+
+.tex{
+    display: flex;
+    font-size: 1.5em;
+    margin: 0;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+
+.doc-class{
+    color: blue;
+}
+
+/* Base styles */
+body {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  /* Responsive typography */
